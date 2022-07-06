@@ -7,8 +7,6 @@ abstract class NumberTriviaState extends Equatable {
   List<Object> get props => [];
 }
 
-class InitialNumberTriviaInitialState extends NumberTriviaState {}
-
 class EmptyState extends NumberTriviaState {}
 
 class LoadingState extends NumberTriviaState {}
